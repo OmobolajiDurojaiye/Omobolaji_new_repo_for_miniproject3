@@ -1,0 +1,112 @@
+.b-wrapper {
+    background-color: #fff !important;
+    padding: 0 50px;
+    background-image: url(../Image/fullstack.jpg);
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.7) !important;
+}
+
+nav {
+    width: 100% !important;
+    position: relative;
+    /* left: 10% !important; */
+}
+
+.b-info {
+    min-height: 90vh;
+    background-color: white;
+    /* border: 1px solid red; */
+    width: 100% !important;
+    position: relative;
+    left: 1% !important;
+    border-top: 1px solid plum;
+    background-image: url(../Image/hm-bg-img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.b-btn {
+    background-color: plum !important;
+    border-radius: 20px !important;
+    color: #fff !important;
+}
+
+
+
+.b-info-right {
+    height: inherit;
+    /* border: 1px solid plum; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.b-head {
+    padding-left: 20px;
+}
+
+.b-info-right .b-info-right-info {
+    /* border: 1p solid red; */
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.b-info-right .b-info-right-info {
+    color: #fff;
+}
+
+.b-info-right-text {
+    padding: 20px;
+}
+
+.b-info-right-text p {
+    line-height: 2;
+    color: #fff;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.b-info-right-text a {
+    color: plum !important;
+    text-decoration: none;
+}
+
+.social-icons ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
+    position: relative;
+    width: 60%;
+    left: 20%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.social-icons ul li a svg {
+    color: #fff;
+}
+
+.social-icons ul li a svg:hover {
+    color: plum;
+}
+
+.footer {
+    height: 10vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+}

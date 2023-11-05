@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to right, #7F7F7F, #565555) !important;
+}
+
+nav {
+    background-color: #fff !important;
+}
+
+nav ul li a {
+    color: #565555 !important;
+}
+
+nav ul li a:hover {
+    color: plum !important;
+}
+
+.b-active {
+    color: plum !important;
+    font-weight: bold !important;
+}
+
+.b-nav-btn {
+    border: 1px solid plum !important;
+    background-color: white !important;
+    color: plum !important;
+    margin-left: 10px;
+}
+
+.b-nav-btn:hover {
+    background-color: plum !important;
+    color: white !important;
+}
